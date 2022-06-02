@@ -8,11 +8,11 @@ en la base de datos. Al terminar esto y apretar enviar, el usuario va a ser envi
 exitosa. 
 En el caso de ya haberse registrado, en la pantalla log in puede ingresar los mismos datos que ingreso al registrarse y tambien sera enviado a la pantalla inicio.
 Dentro de la pagina, usted puede ver una barra de navegacion donde puede probar las distintas funcionalidades de la pagina.
-Historias: El link historias, lo lleva al muro de historias de todos los usuarios, donde puede ver impreso, textos los cuales provienen de la base de datos. Estos fueron creados
+ Historias: El link historias, lo lleva al muro de historias de todos los usuarios, donde puede ver impreso, textos los cuales provienen de la base de datos. Estos fueron creados
 en el link Crear Historias.
-En Personas: Usted puede buscar las personas las cuales ingresaron sus datos en la pagina, mediante el formulario que se encuentra en el link "Cuentenos sobre ti"
-Crear Historias: Como dije previamente, en este link usted va a encontrar un formulario donde va a poder escribir lo usted desee. Lo que escriba va a ser mandado a la base de datos, e 
+ En Personas: Usted puede buscar las personas las cuales ingresaron sus datos en la pagina, mediante el formulario que se encuentra en el link "Cuentenos sobre ti".
+ Crear Historias: Como dije previamente, en este link usted va a encontrar un formulario donde va a poder escribir lo usted desee. Lo que escriba va a ser mandado a la base de datos, e 
 impreso automaticamente para que todos lo vean en el muro de Historias.
-Cuentenos sobre ti: Este es un ultimo formulario, el cual sirve para que el usuario ingrese mas informacion sobre el para poder compartirlo con los demas. Estos datos son enviados a la 
+ Cuentenos sobre ti: Este es un ultimo formulario, el cual sirve para que el usuario ingrese mas informacion sobre el para poder compartirlo con los demas. Estos datos son enviados a la 
 base de datos, y guardados.
 Todos los formularios estan vinculados a un form para validar los datos.
