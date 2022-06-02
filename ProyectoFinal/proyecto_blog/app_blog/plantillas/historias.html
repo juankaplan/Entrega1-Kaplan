@@ -1,0 +1,24 @@
+{% extends "padre.html" %}
+{%load static%}
+{% block contenidoQueCambia %}
+
+<main>
+<div class="contenedor" style="padding: 10px;">
+    <h2 style="text-align: center;">Nuestras Historias</h2>
+    {% for x in historias %}
+    <div class="card" style="margin-top: 10px;">
+        <div class="card-header">
+          Pensamiento
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>{{x.texto}}</p>
+            <footer class="blockquote-footer">{{x.nombre}}</footer>
+          </blockquote>
+        </div>
+      </div>
+      {% endfor %}
+</div>
+</main>
+
+{% endblock %}

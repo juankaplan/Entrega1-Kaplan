@@ -1,0 +1,21 @@
+{% extends "padre.html" %}
+{%load static%}
+{% block contenidoQueCambia %}
+
+<main>
+<div class="contenedor1" style="width:80%; margin-left: 10%;" >
+    <h2>Crea tus historias!</h2>
+    <form action="alta_historias" method="post">
+        {% csrf_token %}
+        <label for="inputName4" class="form-label" >Name</label>
+        <input type="name" class="form-control" id="inputName" name ="nombre" required>
+        <label class="form-label">Escribe tus pensamientos</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name = "texto" required></textarea>
+        <button type="submit" class="btn btn-primary" style="margin-top: 5px;">Enviar!</button>
+
+    </form>
+
+</div>
+</main>
+
+{% endblock %}
